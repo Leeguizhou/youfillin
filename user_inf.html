@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>个人信息</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/user_inf.css" />
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="clf w">
+				<div class="logo">
+					<a href="#"><img src="images/logo_1.png" alt=""></a>
+				</div>
+				<ul>
+					<li>
+						<a href="my_investigation.html">我的调查</a>
+					</li>
+					<li>
+						<a href="invitation.html">邀请好友</a>
+					</li>
+					<li>
+						<a href="credits_exchange.html">积分兑换</a>
+					</li>
+					<li>
+						<a href="public_welfare.html">公益之路</a>
+					</li>
+					<li>
+						<a href="user_inf.html" class="current">个人信息</a>
+					</li>
+				</ul>
+				<div class="user">
+					<a href="login.html"><span>cll94@126.com</span>,退出</a>
+				</div>
+				<div class="info">
+					<a href="letters.html"></a>
+				</div>
+			</div>
+		</div>
+		<div class="header-m">
+			<div class="clf">
+				<div class="header-mlogo">
+				</div>
+				<div class="mean">
+					<div class="meana"></div>
+					<div class="close"></div>
+				</div>
+				<div class="header-message">
+					<a class="back" href="login.html">cll94@126.com, 退出</a>
+				</div>
+				<div class="letters">
+					<a href="letters.html"></a>
+				</div>
+				<div class="status">
+					<span>个人信息</span>
+				</div>
+			</div>
+			<div class="mobile-bot clf">
+				<ul class="clf">
+					<li>
+						<a href="my_investigation.html">我的调查</a>
+					</li>
+					<li>
+						<a href="invitation.html">邀请好友</a>
+					</li>
+					<li>
+						<a href="credits_exchange.html">积分兑换</a>
+					</li>
+					<li>
+						<a href="public_welfare.html">公益之路</a>
+					</li>
+					<li class="mobile-curre">
+						<a href="user_inf.html">个人信息</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="box clf">
+			<div class="box-top clf">
+				<span>积分：2000</span>
+				<span class="icon-qm"></span>
+				<a class="blue" href="credits_exchange.html">积分明细</a>
+				<p class="jfprompt-words pw">成功完成问卷，即可获得相应积分，积分可用于兑换现金，也可捐赠用于公益事业。100积分=1元人民币
+				</p>
+			</div>
+
+			<div class="box-content clf">
+				<div class="basic-inf clf">
+					<p class="content-title">基本信息：</p>
+					<div class="email clf bound">
+						<span>邮箱：</span>
+						<div class="clf fl fabox">
+							<input id="email" type="text" value="cll94@126.com" disabled="value"/>
+							<span class="msta"></span>
+						</div>
+						<span class="icon-qm"></span>
+						<p class="pw email-pw">您的邮箱账号已绑定成功。邮箱一经注册，不可更改。</p>
+					</div>
+					<div class="mobile clf">
+						<span>手机：</span>
+						<div class="clf fl fabox">
+							<input id="phone" type="text" placeholder="请尽快绑定哦" onfocus="this.placeholder=''" onblur="this.placeholder='请尽快绑定哦'"/>
+							<span class="msta"></span>
+						</div>
+						<span class="icon-qm"></span>
+						<input class="verification-code" type="text" placeholder="验证码" onfocus="this.placeholder=''" onblur="this.placeholder='验证码'"/>
+						<input class="yellow" type="button" value="获取验证码" />
+						<p class="pw mobile-pw">您的手机还未绑定，请尽快前往绑定哦~</p>
+						<p class="red-text">●请输入正确的手机号码</p>
+					</div>
+				</div>
+				<div class="user-inf">
+					<p class="content-title">个人信息：</p>
+					<div class="sex clf">
+						<span>性别：</span>
+						<div class="user-radio fl">
+							<input type="radio" name="usersex" id="man" />
+							<label for="man">男</label>
+						</div>
+						<div class="user-radio fl">
+							<input type="radio" name="usersex" id="woman" />
+							<label for="woman">女</label>
+						</div>
+					</div>
+					<div class="born clf">
+						<span>出生年月：</span>
+						<div class="select-box clf fl">
+							<select>
+								<option value="" disabled selected hidden>年份</option>
+								<option>选项一</option>
+								<option>选项二</option>
+								<option>选项二</option>
+							</select>
+							<span class="down"></span>
+						</div>
+						<div class="select-box clf fl">
+							<select>
+								<option value="" disabled selected hidden>月份</option>
+								<option>选项一</option>
+								<option>选项二</option>
+								<option>选项二</option>
+							</select>
+							<span class="down"></span>
+						</div>
+						<div class="select-box clf fl">
+							<select>
+								<option value="" disabled selected hidden>日期</option>
+								<option>选项一</option>
+								<option>选项二</option>
+								<option>选项二</option>
+							</select>
+							<span class="down"></span>
+						</div>
+					</div>
+					<div class="region clf">
+						<span>地区：</span>
+						<div class="select-box clf fl">
+							<select>
+								<option value="" disabled selected hidden>省份</option>
+								<option>选项一</option>
+								<option>选项二</option>
+								<option>选项二</option>
+							</select>
+							<span class="down"></span>
+						</div>
+						<div class="select-box clf fl">
+							<select>
+								<option value="" disabled selected hidden>城市</option>
+								<option>选项一</option>
+								<option>选项二</option>
+								<option>选项二</option>
+							</select>
+							<span class="down"></span>
+						</div>
+					</div>
+					
+				</div>
+				<div class="donation_set">
+						<p class="content-title">捐赠设置：</p>
+						<div class="clf number1">
+							<span>单笔免验证上限：</span>
+							<input class="number" type="text" placeholder="1000" onfocus="this.placeholder=''" onblur="this.placeholder='1000'"/>
+							<span>积分</span>
+							<span class="icon-qm"></span>
+							<p class="pw number-pw1" style="display:none;">单笔免验证捐赠的最高积分，超过则需验证码验证才可捐赠。</p>
+						</div>
+						<div class="clf number2">
+							<span>笔数免验证上限：</span>
+							<input class="number" type="text" placeholder="10" onfocus="this.placeholder=''" onblur="this.placeholder='10'"/>
+							<span>笔</span>
+							<span class="icon-qm"></span>
+							<p class="pw number-pw2">每日免验证可捐赠的最大笔数，超过则需验证码验证才可捐赠。</p>
+						</div>
+						<div>
+							<span>验证码：</span>
+							<input class="verification-code" type="text" placeholder="验证码" onfocus="this.placeholder=''" onblur="this.placeholder='验证码'"/>
+							<input class="yellow" type="button" value="获取验证码" />
+						</div>
+						<input id="save" class="blue" type="button" value="保存" />
+					</div>
+			</div>
+
+			</div>
+		<div class="layer"></div>
+
+	</body>
+
+</html>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/common.js"></script>

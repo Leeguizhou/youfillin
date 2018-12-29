@@ -1,0 +1,267 @@
+.box{
+	padding-bottom: 35px;
+}
+.box-top{
+	width:100%;
+	padding-bottom: 20px;
+	position: relative;
+}
+.box-top span:first-child{
+	font-size: 14px;
+	display: block;
+	float: left;
+	line-height:26px;
+	
+}
+.box-top input{
+	float: left;
+	margin-left: 10px;
+}
+
+.box-content{
+	width: 100%;
+}
+.box-content>div{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	width: 100%;
+	border-top: 1px solid #e6e6e6;
+}
+.box-content>div>div{
+	padding-bottom: 20px;
+	position: relative;
+}
+.box-content div div span{
+	font-size: 12px;
+	display: block;
+	float: left;
+	line-height: 24px;
+}
+
+.content-title{
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.box-content input[type=text]{
+	width: 160px;
+	height: 26px;
+	text-indent: 5px;
+	/*line-height: 26px;*/
+	color:#333;
+	border-radius: 5px;
+	border: rgba(230, 230, 230, 1) solid 1px;
+	text-align: left;
+	display: block;
+	float: left;
+	font-size: 12px;
+	background-color: #fff !important;
+}
+.verification-code{
+	width: 80px!important;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.user-radio input[type="radio"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size:12px;
+    width:14px;
+    height:14px;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid #E6E6E6;
+    text-indent: .15em;
+    line-height:26px; 
+}
+.user-radio input[type="radio"]:checked + label::before {
+    background-color: #ccc;
+    background-clip: content-box;
+    padding:2px;
+	border-radius:50%;
+}
+.user-radio input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.user-radio{
+	margin-top: 3px;
+	padding-left: 10px;
+}
+.user-radio label{
+	font-size: 12px;
+}
+.born select,
+.region select{
+	width: 90px;
+	height: 26px;
+	border-radius: 5px;
+	border: 1px solid #e6e6e6;
+	font-size:12px;
+	padding-left: 5px;
+	float: left;
+/*	margin-right: 15PX;*/
+}
+option{
+	color: #333;
+}
+.number{
+	width: 80px!important;
+	margin: 0 10px;
+}
+.donation_set .blue{
+	width: 100px!important;
+	height: 32px!important;
+	line-height: 32px!important;
+	font-size: 14px!important;
+}
+.jfprompt-words{
+	display: none;
+	position: absolute;
+	left:0;
+	bottom: -75px;
+}
+.email-pw{
+	display: none;
+	position: absolute;
+	left:125px;
+	bottom: -40px;
+}
+.mobile-pw{
+	display: none;
+	position: absolute;
+	left:125px;
+	bottom: -40px;
+}
+.mobile .red-text{
+	font-size: 10px;
+	color: #ff0000;
+	position: absolute;
+	left:0;
+	bottom: 5px;
+	display: none;
+}
+.number-pw1{
+	display: block;
+	position: absolute;
+	left:148px;
+	bottom: -60px;
+}
+.number-pw2{
+	display: none;
+	position: absolute;
+	left:140px;
+	bottom: -60px;
+}
+.msta{
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	position: absolute;
+	top: 6px;
+	right: 10px;
+	background: url(../images/icon_cha.png)center;
+	background-size:100% 100%;
+}
+.fabox{
+	position: relative;
+}
+.bound .msta{
+	background:url(../images/icon_gou.png)no-repeat;
+	background-size:100% 100%;
+}
+
+
+@media only screen and (max-width: 750px) {
+.box{height:auto!important;bottom:3%;}
+.status span:before{
+	width: .14rem;
+	height: .14rem;
+	background: url(../images/icon_c_5.png)center/auto 100%;
+	top: .03rem;		
+}
+.box-top span:first-child {
+    font-size:.14rem;
+    line-height:.26rem;
+}
+.box-top{
+	padding-bottom: .2rem;
+}
+.box-content>div {
+    padding-top:.3rem;
+    padding-bottom:.1rem;
+}
+.content-title {
+    font-size:.14rem;
+    padding-bottom:.2rem;
+}
+.box-content>div>div{
+	padding-bottom: .2rem;
+}
+.box-content div div span{
+	font-size: .12rem;
+	line-height: .26rem;
+}
+.box-content input[type=text]{
+	width: 1.4rem;
+	height: .26rem;
+	font-size: .12rem;
+	line-height: .26rem;
+}
+.verification-code {
+    width: .8rem!important;
+    margin-left:.05rem;
+    margin-right:.05rem;
+}
+.mobile .red-text{
+	font-size: .1rem;
+	bottom: 2px;
+}
+.born select, .region select {
+    width: .9rem;
+    height: .26rem;
+    font-size: .12rem;
+    padding-left:.05rem;
+    float: left;
+    margin-right:.1rem;
+    color: #ccc;
+}
+.select-box:last-of-type select{
+	margin-right: 0;
+}
+.donation_set>div{
+	/*margin-bottom: .2rem;*/
+}
+.donation_set .blue {
+    width:1rem!important;
+    height:.32rem!important;
+    line-height:.32rem!important;
+    font-size: .14rem!important;
+    margin-top: .1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+}
+
+
+
+
+
+

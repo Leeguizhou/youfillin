@@ -1,0 +1,165 @@
+/*login_1*/
+html{width:100%;height:100%;}
+body{width:100%;height:100%;background:url(../images/login_bk.jpg)no-repeat center/100% 100%;position:relative;}
+.illustration{position:absolute;width:30%;height:auto;top:25%;left:15%;}
+.illustration img{width:100%;height:auto;}
+
+.lg{position:absolute;right:50px;top:30px;font-size:22px;color:#fff;}
+.form{width:22%;height:auto;position:absolute;top:30%;right:20%;}
+.form .title{font-size:26px;color:#333;font-weight:500;}
+.form .a_numbre,
+.form .v_code,
+.form .submit{width:100%;height:auto;margin-top:30px;}
+
+
+
+.form .a_numbre input,
+.form .submit input{width:100%;height:50px;}
+.form .a_numbre input{line-height:50px;background:none;border:1px solid #e6e6e6;border-radius:5px;font-size:16px;padding:0 10px;}
+.form .v_code input{float:left;width:60%;height:50px;border:1px solid #e6e6e6;border-radius:5px;font-size:16px;background:none;padding:0 10px;}
+.form .v_code button{margin-left:5%;width:35%;height:50px;background: -webkit-linear-gradient(#feda81, #feb930);background: -o-linear-gradient(#feda81, #feb930);  background: -moz-linear-gradient(#feda81, #feb930); background: linear-gradient(#feda81, #feb930);border-radius:5px;color:#fff;font-size:16px;}
+.form .submit input{width:100%;height:50px;background: -webkit-linear-gradient(#5bd8ff,#2993fd);background: -o-linear-gradient(#5bd8ff,#2993fd);  background: -moz-linear-gradient(#5bd8ff,#2993fd); background: linear-gradient(#5bd8ff,#2993fd);border-radius:5px;color:#fff;font-size:16px;}
+
+.my-infwindow{
+	display: block!important;
+	top: 60%!important;
+	left: 70%!important;
+	height: auto!important;
+}
+.mywindow-text {
+    color: #333!important;
+    font-size: 16px!important;
+    padding-bottom: 30px!important;
+}
+.mywindow-content>span:first-of-type{
+	width: auto!important;
+}
+.my-infwindow a{
+	width: 120px!important;
+	
+}
+.mywindow-content {
+    margin-bottom: 22px!important;
+}
+
+@media only screen and (max-width: 1300px){
+    .form{
+        width:22%;
+        right:20%;
+        min-width: 280px;
+    }
+
+}
+
+@media only screen and (max-width: 920px){
+    .form{
+        width: 30%;
+        right: 12%;
+        min-width: 280px;
+    }
+}
+
+/*login_1*/
+@media only screen and (max-width: 420px) {
+	body{
+		background: url(../images/lbg_m.png)center/100% 100%;
+	}
+
+.illustration{display:block;position:static;width:60%;height:auto;margin:auto;padding-top:10%;}
+.lg{top:.5%;right:2%;font-size:.2rem;}
+.form{
+    width: 90%;
+    padding: .1rem 5%;
+    height: auto;
+    position: static;
+    margin:auto;
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%,-50%);*/
+    box-shadow: 0 0 6px #eee;
+    background: #fff;
+    border-radius: 10px;
+    /*border: 1px solid blue;*/
+    padding-bottom:.2rem;
+}
+.form .a_numbre,.form .submit{font-size:1px;}
+.form .title {
+    font-size:.26rem;
+    color: #333;
+    font-weight: 500;
+}
+.form .v_code button{
+	float:left;
+}
+.my-infwindow{
+	width: 90%!important;
+	display: block!important;
+	top: 70%!important;
+	left: 50%!important;
+	height: auto!important;
+	padding: .3rem .2rem;
+}
+.mywindow-text {
+    color: #333!important;
+    font-size: .16rem!important;
+    padding-bottom: .3rem!important;
+    line-height: .26rem!important;
+}
+.mywindow-content>span:first-of-type{
+	width: auto!important;
+}
+.my-infwindow a{
+	width: 1.2rem!important;
+	
+}
+.mywindow-content {
+    margin-bottom: .22rem!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

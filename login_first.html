@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/login_first.css" />
+		<link rel="stylesheet" href="css/jigsaw.css" />
+	</head>
+
+	<body>
+		<a href="#" class="lg">CN&nbsp;/&nbsp;EN</a>
+		<div class="form">
+			<div class="login-logo">
+
+			</div>
+			<p class="login-title">欢迎加入youfillin！</p>
+			<p class="login-text">填写您的观点、立马赚取礼金的神奇网站</p>
+			<input type="text" placeholder="请输入您的邮箱或手机号码" />
+			<div class="verify">
+				<div class="container">
+					<div id="captcha" style="position: relative">
+					</div>
+				</div>
+				<div id="msg">
+					验证通过
+				</div>
+				<div id="sta">
+					<span id="one"></span>
+					<span id="two"></span>
+				</div>
+			</div>
+			<input class="blue login" type="button" value="登录" />
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/jigsaw.js"></script>
+	<script>
+		jigsaw.init(document.getElementById('captcha'), function() {
+			console.log('你好呀')		
+		})
+	</script>
+
+</html>

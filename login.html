@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		<link rel="stylesheet" href="css/jigsaw.css" />
+	</head>
+
+	<body>
+		<div class="m_logo"><img src="images/icon_logo.png" alt=""></div>
+		<div class="illustration"><img src="images/ct_1.png" alt=""></div>
+		<a href="#" class="lg">CN&nbsp;/&nbsp;EN</a>
+		<div class="login-box clf">
+			<div class="form">
+				<div class="login-logo">
+				</div>
+				<p class="login-title">欢迎加入youfillin！</p>
+				<p class="login-text">填写您的观点、立马赚取礼金的神奇网站</p>
+				<input type="text" placeholder="请输入您的邮箱或手机号码" onfocus="this.placeholder=''" onblur="this.placeholder='请输入您的邮箱或手机号码'"/>
+				<div class="verify">
+					<div class="container">
+						<div id="captcha" style="position: relative">
+						</div>
+					</div>
+					<div id="msg">
+						验证通过
+					</div>
+					<div id="sta">
+						<span id="one"></span>
+						<span id="two"></span>
+					</div>
+				</div>
+				<div class="verify_m">
+					<input type="text" id="code_input" value="" placeholder="请输入验证码" onfocus="this.placeholder=''" onblur="this.placeholder='请输入验证码'"/>
+					<div id="v_container">
+						
+					</div>
+				</div>
+				<input class="blue login" type="button" value="登录" />
+				<input class="blue login_m" id="my_button" type="button" value="登录" />
+			</div>
+			<div class="login-bot" clf>
+				<div class="bot-top clf">
+					<span></span>
+					<span></span>
+					<span></span>
+					<p></p>
+				</div>
+				<div class="bot-text clf">
+					<p>
+						1、邮箱/手机登录<br />
+						<span>无需注册，输入邮箱或手机即可登录</span>
+					</p>
+					<p>
+						2、填写问卷<br />
+						<span>选择您喜欢的问卷<br />参与调查</span>
+					</p>
+					<p>
+						3、提取现金奖励<br />
+						<span>成功完成问卷，<br />立即提取现金奖励</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/jigsaw.js"></script>
+	<script type="text/javascript" src="js/gVerify.js" ></script>
+	<script>
+		jigsaw.init(document.getElementById('captcha'), function() {
+			console.log('你好呀')
+		});
+		
+		var verifyCode = new GVerify("v_container");
+		document.getElementById("my_button").onclick = function(){
+			var res = verifyCode.validate(document.getElementById("code_input").value);
+			if(res){
+				window.location.href='my_investigation.html'
+			}else{
+				alert("验证码错误");
+			}
+		}
+	</script>
+
+</html>

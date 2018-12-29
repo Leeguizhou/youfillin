@@ -1,0 +1,508 @@
+.box {
+	padding: 0 20px 50px!important;
+}
+
+.box .dl {
+	border-bottom: 1px solid #0093e7;
+	padding: 16px 20px;
+}
+
+.box .dl>.dt,
+.box ul li>.dd {
+	float: left;
+}
+
+.box .dl>.dt {
+	font-size: 12px;
+	color: #26a7ff;
+	line-height: 16px;
+	vertical-align: middle;
+}
+
+.box .dl>.dt:nth-of-type(1) {
+	width: 25%;
+	padding-left: 4%;
+	margin-right: 15%;
+	font-weight:bold;
+}
+
+.box .dl>.dt:nth-of-type(2) {
+	width: 15%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.box .dl>.dt:nth-of-type(3) {
+	width: 15%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.box .dl>.dt:nth-of-type(4) {
+	width: 15%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.box .dl>.dt:nth-of-type(2):after,
+.box .dl>.dt:nth-of-type(3):after,
+.box .dl>.dt:nth-of-type(4):after {
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon_6.png)no-repeat center/100% 100%;
+	vertical-align: top;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.box .dl>.dt:nth-of-type(2),
+.box .dl>.dt:nth-of-type(3),
+.box .dl>.dt:nth-of-type(4) {
+	position: relative;
+}
+
+.box .dl>.dt:nth-of-type(2) p,
+.box .dl>.dt:nth-of-type(3) p,
+.box .dl>.dt:nth-of-type(4) p {
+	position: absolute;
+	padding: 10px;
+	display: none;
+	width: 170px;
+	font-size: 12px;
+	color: #999;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12857142857142861);
+	border-radius: 5px;
+	line-height: 18px;
+	background: #fff;
+	text-align: justify;
+    z-index: 6;
+    letter-spacing: 0;
+    font-weight: 0!important;
+    }
+
+.box .dl>.dt:nth-of-type(2):hover p,
+.box .dl>.dt:nth-of-type(3):hover p,
+.box .dl>.dt:nth-of-type(4):hover p {
+	display: block;
+	font-weight:300;
+}
+
+.box ul {
+	padding: 0 20px 0;
+}
+
+.box ul li {
+	border-bottom: 1px solid #f6f6f6;
+	padding: 14px 0;
+}
+
+.box ul li:last-child {
+	border-bottom: 0;
+}
+
+.box ul li>.dd {
+	font-size: 12px;
+	color: #333;
+	line-height: 16px;
+}
+
+.box ul li>.dd:nth-of-type(1) {
+	width: 25%;
+	text-align: left;
+	margin-right: 15%;
+}
+
+.box ul li>.dd:nth-of-type(2) {
+	width: 15%;
+	text-align: center;
+}
+
+.box ul li>.dd:nth-of-type(3) {
+	width: 15%;
+	text-align: center;
+}
+
+.box ul li>.dd:nth-of-type(4) {
+	width: 15%;
+	text-align: center;
+}
+
+.box ul li>.dd:nth-of-type(5) {
+	width: 15%;
+	text-align: center;
+}
+
+.box ul li>.dd:nth-of-type(2) span::before {
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon_7.png)no-repeat center/100% 100%;
+	vertical-align: top;
+	margin-right: 3px;
+}
+
+.box ul li>.dd.wx:nth-of-type(2) span:before {
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 16px;
+	background: url(../images/icon_10.png)no-repeat center/100% 100%;
+	vertical-align: top;
+	margin-right: 3px;
+}
+
+.box ul li>.dd:nth-of-type(3) span:before {
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon_8.png)no-repeat center/100% 100%;
+	vertical-align: top;
+	margin-right: 3px;
+}
+
+.box ul li>.dd:nth-of-type(4) span:before {
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon_9.png)no-repeat center/100% 100%;
+	vertical-align: top;
+	margin-right: 3px;
+}
+
+.box ul li>.dd a {
+	display: block;
+	width: 80px;
+	height: 26px;
+	background: -webkit-linear-gradient(#57defe, #2594ff);
+	background: -o-linear-gradient(#57defe, #2594ff);
+	background: -moz-linear-gradient(#57defe, #2594ff);
+	background: linear-gradient(#57defe, #2594ff);
+	margin: auto;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 26px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.box ul li>.dd:not(:last-child) {
+	padding-top: 5px;
+}
+
+.my-infwindow {
+	width: 440px;
+	height: 340px;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 7;
+	padding: 30px 40px;
+	padding-right: 0;
+	display: block;
+}
+
+.layer {
+	display: block;
+	z-index:7;
+}
+
+.my-logo {
+	width: 95px;
+	height: 24px;
+	background: url(../images/icon_logo.png)center/100% 100%;
+}
+
+.mywindow-text {
+	color: #999;
+	font-size: 12px;
+	line-height: 26px;
+	padding-bottom: 45px;
+}
+
+.mywindow-content {
+	margin-bottom: 18px;
+}
+
+.mywindow-content>span:first-of-type {
+	font-size: 14px;
+	color: #333;
+	width: 75px;
+	line-height: 26px;
+	display: block;
+	float: left;
+	text-align: right;
+}
+
+.user-radio input[type="radio"]+label::before {
+	content: "\a0";
+	/*不换行空格*/
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	width: 14px;
+	height: 14px;
+	margin-right: .4em;
+	border-radius: 50%;
+	border: 1px solid #E6E6E6;
+	text-indent: .15em;
+	line-height: 26px;
+}
+
+.user-radio input[type="radio"]:checked+label::before {
+	background-color: #ccc;
+	background-clip: content-box;
+	padding: 2px;
+}
+
+.user-radio input[type="radio"] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+	float: left;
+}
+
+.user-radio {
+	padding-top: 3px;
+	padding-left: 10px;
+}
+
+.mywindow-content select {
+	width: 90px;
+	height: 26px;
+	border-radius: 5px;
+	border: 1px solid #e6e6e6;
+	font-size: 12px;
+	padding-left: 5px;
+	float: left;
+}
+
+option {
+	color: #333;
+}
+
+.my-infwindow .yellow {
+	width: 100px;
+	height: 32px;
+	font-size: 14px;
+	line-height: 32px;
+	margin-top: 24px;
+	display: block;
+}
+
+.my-infwindow1 {
+	width: 440px;
+	height: 295px;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 7;
+	padding: 30px 40px;
+	padding-right: 0;
+	display: none;
+}
+
+.window-email,
+.window-code {
+	padding-bottom: 20px;
+}
+
+.window-email span:first-of-type,
+.window-code span:first-of-type {
+	width: 60px;
+	display: block;
+	font-size: 14px;
+	color: #333;
+	line-height: 26px;
+	text-align: right;
+	margin-right: 10px;
+	float: left;
+}
+
+.window-email input {
+	width: 160px;
+	height: 26px;
+	text-indent: 5px;
+	border-radius: 5px;
+	font-size: 12px;
+	line-height: 26px;
+	border: rgba(230, 230, 230, 1) solid 1px;
+	text-align: left;
+	display: block;
+}
+
+.window-code input[type=text] {
+	width: 90px;
+	height: 26px;
+	text-indent: 5px;
+	border-radius: 5px;
+	font-size: 12px;
+	line-height: 26px;
+	border: rgba(230, 230, 230, 1) solid 1px;
+	display: block;
+	text-align: left;
+	float: left;
+	margin-right: 10px;
+}
+
+.window-code input[type=button] {
+	width: 90px!important;
+	display: block;
+	margin-left: 10px;
+	float: left;
+}
+
+.window-but {
+	padding-top: 22px;
+}
+
+.window-but input {
+	width: 90px;
+	height: 32px;
+	font-size: 14px;
+	line-height: 32px;
+	margin-right: 20px;
+}
+
+@media only screen and (max-width:750px) {
+	.box {
+		padding: .2rem!important;
+		overflow-y: auto;
+	}
+	.box .dl {
+		display: none;
+	}
+	.box ul {
+		padding: 0!important;
+	}
+	.box ul li>.dd:nth-of-type(1) {
+		width: 100%;
+		padding-bottom: .1rem;
+	}
+	.box ul li>.dd:nth-of-type(2) {
+		width: 25%;
+	}
+	.box ul li>.dd:nth-of-type(3) {
+		width: 25%;
+	}
+	.box ul li>.dd:nth-of-type(4) {
+		width: 20%;
+	}
+	.box ul li>.dd:nth-of-type(5) {
+		width: 30%;
+	}
+	.box ul li>.dd {
+		font-size: .12rem;
+		text-align: left !important;
+	}
+	.box ul li>.dd a {
+		width: .8rem;
+		height: .26rem;
+		font-size: .12rem;
+		line-height: .26rem;
+	}
+	.status span:before {
+		width: .14rem;
+		height: .16rem;
+		background: url(../images/icon_c_1.png)center/100% 100%;
+		top: .02rem;
+	}
+	.my-infwindow {
+		width: 90%;
+		height: auto;
+		background-color: rgba(255, 255, 255, 1);
+		border-radius: 10px;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 7;
+		padding: .3rem .2rem;
+		padding-right: 0;
+		display: block;
+	}
+	.my-logo {
+		width: .95rem;
+		height: .24rem;
+	}
+	.mywindow-text {
+		color: #999;
+		font-size: .12rem;
+		line-height: .26rem;
+		padding-bottom: .45rem;
+	}
+	.mywindow-content>span:first-of-type {
+		font-size: .14rem;
+		color: #333;
+		width: .75rem;
+		line-height: .26rem;
+		display: block;
+		float: left;
+		text-align: right;
+	}
+	.mywindow-content select {
+		width: .8rem;
+		height: .26rem;
+		border-radius: 5px;
+		border: 1px solid #e6e6e6;
+		font-size: .12rem;
+		padding-left: 5px;
+		float: left;
+	}
+	.my-infwindow .yellow {
+		width: 1rem;
+		height: .32rem;
+		font-size: .14rem;
+		line-height: .32rem;
+		margin-top: 0;
+	}
+	.my-infwindow1 {
+		width: 90%;
+		height: auto;
+		border-radius: .1rem;
+		padding: .3rem .2rem;
+		padding-right: 0;
+		display: none;
+	}
+	.window-email,
+	.window-code {
+		padding-bottom: .2rem;
+	}
+	.window-email span:first-of-type,
+	.window-code span:first-of-type {
+		width: .6rem;
+		display: block;
+		font-size: .14rem;
+		line-height: .26rem;
+		margin-right: .1rem;
+	}
+	.window-code input[type=text] {
+		width: .9rem;
+		height: .26rem;
+		font-size: .12rem;
+		line-height: .26rem;
+		margin-right: 0;
+	}
+	.window-code input[type=button] {
+		width: .9rem!important;
+		margin-left: .1rem;
+	}
+	.window-but input {
+		width: .9rem;
+		height: .32rem;
+		font-size: .14rem;
+		line-height: .32rem;
+		margin-right: .2rem;
+		display: block;
+		float: left;
+	}
+}

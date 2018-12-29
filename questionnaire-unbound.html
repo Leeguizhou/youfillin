@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>问卷-完成兑换-未绑定</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/questionnaire.css" />
+	</head>
+
+	<body>
+<!--
+				<div class="header">
+			<div class="clf w">
+				<div class="logo">
+					<a href="#"><img src="images/logo_1.png" alt=""></a>
+				</div>
+				<ul>
+					<li>
+						<a href="my_investigation.html">我的调查</a>
+					</li>
+					<li>
+						<a href="invitation.html">邀请好友</a>
+					</li>
+					<li>
+						<a href="credits_exchange.html" class="current">积分兑换</a>
+					</li>
+					<li>
+						<a href="public_welfare.html">公益之路</a>
+					</li>
+					<li>
+						<a href="user_inf.html">个人信息</a>
+					</li>
+				</ul>
+				<div class="user">
+					<a href="login.html"><span>cll94@126.com</span>,退出</a>
+				</div>
+				<div class="info">
+					<a href="#"></a>
+				</div>
+			</div>
+		</div>-->
+		<div class="box">
+			<div class="questionnaire-logo"></div>
+			<div class="pay-way clf">
+				<div class="way-top clf">
+					<span>请选择您的兑换方式：</span>
+					<span class="icon-qm"></span>
+					<p class="pw way-pw">现金兑换仅支持支付宝、银联两种方式。</p>
+				</div>
+				<div class="clf">
+					<div class="alipay clf">
+						<a class="clf" href="#">
+							<img src="images/icon_alipay.png" />
+							<p>支付宝</p>
+							<p class="aready">(未绑定)</p>
+						</a>
+					</div>
+					<div class="bank_card clf">
+						<a class="clf" href="#">
+							<img src="images/icon_card.png" />
+							<p>银行卡</p>
+							<p class="aready">(未绑定)</p>
+						</a>
+					</div>
+				</div>
+				<div class="bound-wrap clf">
+					<div class="alipay-bound clf">
+						<p class="pay-title">支付宝绑定：(账号一经绑定，无法更改，请您慎重填写)</p>
+						<input type="text" placeholder="输入您的名字"  onfocus="this.placeholder=''" onblur="this.placeholder='输入您的名字'"/>
+						<input type="text" placeholder="输入您的支付宝账号" onfocus="this.placeholder=''" onblur="this.placeholder='输入您的支付宝账号'"/>
+						<input type="text" placeholder="再次输入您的支付宝账号" onfocus="this.placeholder=''" onblur="this.placeholder='再次输入您的支付宝账号'"/>
+						<div class="clf com-input">
+							<input type="text" value="cll94@126.com(不可输入)" disabled/>
+							<input class="code" type="text" placeholder="验证码" onfocus="this.placeholder=''" onblur="this.placeholder='验证码'"/>
+							<input type="button" class="yellow get-code" value="获取验证码" />
+						</div>
+						<div class="clf bot-but">
+							<a class="blue button-a" href="questionnaire-bound.html">绑定</a>
+							<a class="gray button-a" href="my_investigation.html">取消</a>
+						</div>
+					</div>
+					<div class="bank-bound clf">
+						<p class="pay-title">银行卡绑定：(卡号一经绑定，无法更改，请您慎重填写)</p>
+						<input type="text" placeholder="输入您的名字" onfocus="this.placeholder=''" onblur="this.placeholder='输入您的名字'"/>
+						<input type="text" placeholder="输入您的银行卡号" onfocus="this.placeholder=''" onblur="this.placeholder='输入您的银行卡号'"/>
+						<input type="text" placeholder="再次输入您的银行卡号" onfocus="this.placeholder=''" onblur="this.placeholder='再次输入您的银行卡号'"/>
+						<div class="select-box clf fl">
+							<select>
+								<option value="" disabled selected hidden>请选择开户银行</option>
+								<option>选项一</option>
+								<option>选项二</option>
+								<option>选项二</option>
+							</select>
+							<span class="down"></span>
+						</div>
+						<div class="clf com-input">
+							<input type="text" value="cll94@126.com(不可输入)" disabled/>
+							<input class="code" type="text" placeholder="验证码" onfocus="this.placeholder=''" onblur="this.placeholder='验证码'"/>
+							<input type="button" class="yellow get-code" value="获取验证码" />
+						</div>
+						<div class="clf bot-but">
+							<a class="blue button-a" href="questionnaire-bound.html">绑定</a>
+							<a class="gray button-a" href="my_investigation.html">取消</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/common.js"></script>

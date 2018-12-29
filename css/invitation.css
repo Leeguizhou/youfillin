@@ -1,0 +1,177 @@
+.box{
+	padding-bottom: 40px;
+}
+.xx{
+	width: 22px;
+	height: 22px;
+	display: block;
+	float: left;
+	background: url(../images/icon_xx.png)center/100% 100%;
+}
+.top-title{
+	font-size: 14px;
+	color: #333;
+	line-height: 26px;
+	display: block;
+	float: left;
+	padding-left: 8px;
+}
+.top-text{
+	width: 100%;
+	display: block;
+	padding-top: 10px;
+	font-size: 12px;
+	color: #999;
+	line-height: 20px;
+}
+.inv-wrap{
+	margin-top: 40px;
+}
+.lianjie{
+	width: 25px;
+	height: 25px;
+	display: block;
+	float: left;
+	background: url(../images/icon_lianjie.png)center/100% 100%;
+}
+.fx{
+	width: 20px;
+	height: 22px;
+	display: block;
+	float: left;
+	background: url(../images/icon_fx.png)center/100% 100%;
+}
+.lianjie-input{
+	width: 600px;
+	height: 26px;
+	font-size: 12px;
+	line-height: 26px;
+	color: #999;
+	border-radius: 5px;
+	text-indent: 10px;
+	border: 1px solid #e6e6e6;
+	margin-right: 10px;
+}
+.inv-wrap>div:first-of-type{
+	padding-bottom: 10px;
+}
+.blue{
+	width: 60px!important;
+}
+.ewm-box{
+	width: 600px;
+	padding: 10px;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+.ewm-box p{
+	font-size: 12px;
+	color: #999;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+.ewm-box img{
+	width: 90px;
+	height: 90px;
+}
+.bot li{
+	width: 60px;
+	margin-right: 20px;
+	float: left;
+}
+.bot li a{
+	display: block;
+	width: 100%;
+}
+.bot li a img{
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.bot li a p{
+	width: 100%;
+	text-align: center;
+	font-size: 10px;
+	color: #999;
+}
+.header .w > ul li:nth-of-type(2) a:before{
+	background: url(../images/icon_c_2.png)no-repeat center/100% 100%!important;
+}
+
+
+
+
+@media only screen and (max-width:750px) {
+.status span:before{
+	width: .18rem;
+	height: .13rem;
+	background: url(../images/icon_c_2.png)center/100% auto;
+	top: .03rem;		
+}		
+.box{
+	padding: .2rem;
+	overflow: auto;
+}
+.lianjie-input{
+	width: 80%;
+	float: left;
+	margin-right: 2%;
+}
+.ewm-box{
+	width: 100%;
+}
+.bot{
+	width: 100%;
+}
+.bot li{
+	width: calc((100% - .4rem) / 5);
+	margin-right: .1rem;
+}
+.bot li:last-of-type{
+	margin-right: 0;
+}
+.inv-wrap>div input[type=button]{
+	width: 18%!important;
+}
+.top-title{
+	font-size: .14rem;
+	line-height: .26rem;
+}
+.top-text{
+	font-size: .12rem;
+	line-height: .2rem;
+}
+.inv-wrap{
+	margin-top: .3rem;
+}
+.inv-wrap>div:first-of-type{
+	padding-bottom: .1rem;
+}
+.lianjie {
+    width:.25rem;
+    height:.25rem;
+}
+.fx {
+    width:.2rem;
+    height:.22rem;
+}
+.ewm-box p{
+	font-size: .12rem;
+	line-height: .2rem;
+}
+.ewm-box img{
+	width: .9rem;
+	height: .9rem;
+}
+.bot li a p{
+	font-size: .1rem;
+}
+
+
+
+
+
+}

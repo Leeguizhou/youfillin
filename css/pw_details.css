@@ -1,0 +1,235 @@
+.box{
+	padding-bottom: 30px!important;
+}
+.details-content{
+	padding-top: 10px;
+}
+.article{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.article-title{
+	width: 100%;
+	font-size: 16px;
+	color:#333333;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.article-text{
+	font-size: 12px;
+	color: #333;
+	line-height: 18px;
+}
+.article-text span{
+	display: block;
+	text-indent: 2em;
+}
+.article-images{
+	width: 100%;
+	padding: 0 100px 40px 100px;
+}
+.article-images img{
+	width: calc( (100% - 80px) / 3 );
+	float: left;
+	display: block;
+	margin-right: 40px;
+}
+.article-images img:last-of-type{
+	margin-right: 0;
+}
+.article-love{
+	width: 50px!important;
+	height: 45px;
+	display: block;
+	margin: 0 auto;
+	background: url(../images/icon_love.png)center/100% 100%;
+}
+.prompt{
+	font-size: 12px;
+	color: #ff6868;
+	width: 100%;
+	text-align: center;
+	padding: 5px 0;
+}
+.article-but{
+	padding-left:365px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #F6F6F6;
+	margin-bottom: 20px;
+	position:relative;
+}
+.spending{
+	width: 100%;
+}
+.spending .spending-title{
+	font-size: 14px;
+	color: #333;
+	padding-bottom: 10px;
+}
+.spending ul{
+	width: 100%;
+	border:1px solid #ccc;
+}
+.spending ul li{
+	width: calc(100% / 6);
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	text-align: center;
+	border-right: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	float: left;
+}
+.show-title{
+	font-size: 14px;
+	padding-top: 20px;
+	color: #333;
+}
+.layer{
+	display: none;
+}
+.donation-widow{
+	width: 300px;
+	height: 320px;
+	background: #fff;
+	padding: 40px 50px 16px 50px;
+	border-radius: 10px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 5;
+	display: none;
+}
+.donation-widow p{
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.donation{
+	font-size: 14px;
+
+}
+.count{
+	font-size: 12px;
+}
+.thanks{
+	font-size: 12px;
+	color: #999;
+}
+.updata{
+	display: block;
+	text-align: right!important;
+	font-size: 10px;
+	color: #999;
+}
+.donation-but{
+	padding-top:10px;
+}
+.donation-number input[type=text]{
+	width: 80px;
+	height: 26px;
+	line-height: 26px;
+	border-radius: 5px;
+	display: block;
+	padding-left: 10px;
+	border: 1px solid #E6E6E6;
+	margin: 0 5px;
+}
+.donation-number span{
+	font-size: 24px;
+	line-height: 26px;
+	color: #ccc;
+	cursor: pointer;
+}
+.donation-number .cut{
+	margin-left:40px;
+}
+.donation-but input{
+	height:32px;
+	width: 90px;
+	line-height: 32px;
+	font-size: 14px;
+}
+.details-pw{
+	display: none;
+	position: absolute;
+	left:300px;
+	bottom: -50px;
+}
+.article-pw{
+	display: none;
+	position: absolute;
+	left:370px;
+	bottom: -90px;
+}
+
+@media only screen and (max-width: 750px) {
+.status span:before{
+	width: .14rem;
+	height: .14rem;
+	background: url(../images/icon_c_4.png)center/auto 100%;
+	top: .03rem;		
+}	
+.article-images{
+	padding: 0;
+	padding-bottom: .4rem;
+}
+.article-images img {
+    width: calc( (100% - .8rem) / 3 );
+    margin-right:.4rem;
+}
+.article-title{
+	font-size: .16rem;
+}
+.article-love {
+    width:.5rem!important;
+    height:.45rem;
+}
+.prompt {
+    font-size: .12rem;
+}
+.article-text{
+	font-size: .12rem;
+}
+.article-but{
+	padding-left:38%;
+}
+.article-but input{
+	margin: 0 auto;
+}
+.spending .spending-title{
+	font-size: .14rem;
+}
+.show-title{
+	font-size: .14rem;	
+}
+.spending ul li {
+    width: calc(100% / 6);
+    height:.26rem;
+    line-height:.26rem;
+    font-size:.12rem;
+    text-align: center;
+    border-right: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    float: left;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

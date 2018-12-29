@@ -1,0 +1,502 @@
+.box{
+	margin-top: 80px!important;
+}
+.questionnaire-logo{
+	width: 110px;
+	height: 28px;
+	background: url(../images/icon_logo.png)center/100% 100%;
+	margin-bottom: 30px;
+}
+.questionnaire-content{
+	padding-top: 30px;
+}
+/*问卷-成功*/
+.gou{
+	width: 60px;
+	height: 60px;
+	margin:  0 auto;
+	background: url(../images/icon_gou.png)center/100% 100%;
+	margin-bottom: 20px;	
+}
+.que-title{
+	font-size: 14px;
+	color: #333;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.que-xx{
+	width: 100%;
+	padding-bottom: 10px;
+	/* padding-left: 370px; */
+	text-align: center;
+	vertical-align: middle;
+}
+.que-xx span:first-of-type{
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	/* float: left; */
+	background: url(../images/icon_xx.png)center/100% 100%;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.que-xx span:last-of-type{
+	display: inline-block;
+	/* float: left; */
+	font-size: 12px;
+	color: #333;
+	line-height: 20px;
+	vertical-align: middle;
+	height: 18px;
+}
+.que-jf{
+	width: 100%;
+	padding-bottom: 36px;
+	position: relative;
+}
+.que-jf span:first-of-type{
+	width: 100%;
+	font-size: 10px;
+	text-align: center;
+	color: #999;
+	line-height: 26px;
+	display: block;
+	float: left;
+}
+.que-jf .icon-qm{
+	position: absolute;
+	top: 1px;
+	right: 34.5%;
+}
+.que-but{
+	width: 100%;
+	padding-left: 255px;
+}
+.que-but input[type=button]{
+	width: 90px;
+	height: 32px;
+	font-size: 14px;
+	line-height: 32px;
+	margin-right: 20px;
+}
+/*问卷-成功兑换-已绑定*/
+.pay-way{
+	margin-bottom: 20px;
+}
+/*.pay-way a{
+	margin-top: 10px;
+}*/
+.way-top{
+	padding-bottom: 20px;
+	position: relative;
+}
+.way-top span:first-of-type{
+	display: block;
+	font-size: 14px;
+	line-height: 26px;
+	color: #333;
+	float: left;
+}
+.alipay{
+	width: 50px;
+	float: left;
+}
+.alipay a{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.bank_card{
+	width: 64px;
+	float: left;
+	margin-left: 60px;	
+}
+.alipay a img,
+.bank_card a img{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 5px;
+}
+.alipay a img{
+	width: 40px!important;
+	margin-left: 5px;
+}
+.alipay a p,
+.bank_card a p{
+	font-size: 12px;
+	text-align: center;
+	color:#333;
+	line-height: 20px;
+}
+.aready{
+	font-size: 10px!important;
+	color: #999!important;
+}
+.withdrawal-title{
+	font-size: 14px;
+	padding-bottom: 15px;
+	color: #333;
+	padding-top: 30px;
+}
+.jf-text{
+	display: block;
+	float: left;
+	font-size: 12px;
+	margin-left: 20px;
+	line-height: 26px;
+	color: #333;
+}
+.jf-input{
+	width: 120px;
+	height: 26px;
+	text-indent: 5px;
+	color: rgba(153, 153, 153, 1);
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	font-size: 12px;
+	line-height:26px;
+	display: block;
+	text-align: left;
+	float: left;
+}
+.money{
+	font-size: 12px;
+	color: #333;
+	padding-bottom: 10px;
+}
+.read{
+	font-size: 10px;
+	color: #999;
+	padding-bottom: 10px;
+}
+.bd{
+	width: 170px;
+	height: 26px;
+	text-indent: 5px;
+	line-height: 26px;
+	color: rgba(51, 51, 51, 1);
+	border-radius: 5px;
+	border: 1px solid #e6e6e6;
+	font-size: 12px;
+	text-align: left;
+	display: block;
+}
+.withdrawal div{
+	padding: 10px 0;
+}
+.withdrawal input[type=button]{
+	width: 90px;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.way-pw{
+	display: none;
+	position: absolute;
+	left:60px;
+	bottom: -36px;
+}
+/*问卷-成功兑换-未绑定*/
+.bound-wrap{
+	padding-top: 30px;
+	display: none;
+}
+.alipay-bound{
+	display: none;
+}
+.bank-bound{
+	display: none;
+}
+.bound-wrap>div{
+	width: 50%;
+	float: left;
+}
+.pay-title{
+	font-size: 14px;
+	color: #333;
+	padding-bottom: 30px;
+}
+.bound-wrap select,
+.bound-wrap input[type=text]{
+	display: block;
+	width: 170px;
+	height: 26px;
+	text-indent: 5px;
+	color:#333;
+	border-radius: 5px;
+	font-size: 12px;
+	line-height:26px;
+	text-align: left;
+	border: 1px solid #e6e6e6;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+.bound-wrap select option{
+	color: #333;
+}
+.code{
+	width: 80px!important;
+}
+.get-code{
+	width: 90px!important;
+}
+.com-input{
+	padding-bottom: 10px;
+}
+.com-input input{
+	float: left;
+	margin-right: 10px;
+}
+.bot-but input{
+	width: 90px;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 20px;
+}
+/*问卷-失败*/
+.cha{
+	width: 60px;
+	height: 60px;
+	margin:  0 auto;
+	background: url(../images/icon_cha.png)center/100% 100%;
+	margin-bottom: 20px;	
+}
+.fail-title{
+	padding-bottom:20px;
+	position: relative;
+}
+.fail-title span:first-of-type{
+	font-size: 14px;
+	color: #333;
+	display: block;
+	float: left;
+	line-height: 26px;
+	padding-left: 368px;
+}
+
+
+.que-pw{
+	display: none;
+	position: absolute;
+	left:430px;
+	bottom: -75px;
+}
+.fail-title-pw{
+	display: none;
+	position: absolute;
+	left:375px;
+	bottom: -165px;	
+}
+.wx-ewm{
+	width: 90px;
+	height: 90px;
+	background: url(../images/ewm.png)center/100% 100%;
+	margin: 60px auto 10px auto;
+}
+.wx-title{
+	width: 100%;
+	text-align: center;
+	color:#333;
+	font-size: 16px;
+}
+.wx-text{
+	width: 100%;
+	text-align: center;
+	color:#333;
+	padding-bottom: 20px;
+	font-size: 12px;
+}
+.wx-but{
+	width: 100%;
+	height: 32px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.wx-but a{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.wx-but .icon-qm{
+	position: absolute;
+	top: 4px;
+	right: 41%;
+}
+.bot-text{
+	text-align: center;
+	color: #999;
+	font-size: 10px;
+}
+.wx-pw {
+    display: none;
+    position: absolute;
+    left: 390px;
+    bottom: -60px;
+}
+
+@media only screen and (max-width:750px ) {
+.box{
+	top: .2rem!important;
+	height: auto!important;
+	margin-top: 0!important;
+}
+.que-xx{
+	/* padding-left: 38%; */
+}
+.que-jf{
+	padding-left: 0;
+}
+.que-jf span{
+	width: 100%;
+	text-align: center;
+}
+.que-but{
+	padding-left: 0;
+}
+.button-a {
+    width: .9rem;
+    height: .32rem;
+    font-size:.14rem;
+    line-height:.32rem;
+    text-align: center;
+    color: #fff;
+    display: block;
+    float: left;
+    margin-right:.2rem;
+    border-radius:.42rem;
+}
+.que-but a:first-of-type{
+	margin-left: 8%;
+}
+.que-but a:last-of-type{
+	margin-right: 0;
+}
+.questionnaire-logo {
+    width:1.1rem;
+    height:.28rem;
+    margin-bottom: .3rem;
+}
+.gou {
+    width:.6rem;
+    height:.6rem;
+    margin-bottom:.2rem;
+}
+.que-title {
+    font-size:.14rem;
+}
+.que-xx span:first-of-type {
+    width:.18rem;
+    height:.18rem;
+}
+.que-xx span:last-of-type{
+	font-size: .12rem;
+}
+.que-jf span:first-of-type{
+	font-size: .1rem;
+}
+.bound-wrap>div{
+	width: 100%;
+}
+.bound-wrap select, .bound-wrap input[type=text] {
+    display: block;
+    width: 1.6rem;
+    height:.26rem;
+    font-size:.12rem;
+    line-height:.26rem;
+    margin-bottom:.1rem;
+}
+.alipay-bound{
+	padding-bottom: .3rem;
+}
+.com-input input:last-of-type{
+	margin-right: 0;
+}
+.way-top span:first-of-type{
+	font-size: .14rem;
+	line-height: .26rem;
+}
+.alipay a img, .bank_card a img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+.alipay a p, .bank_card a p{
+	font-size: .12rem;
+	line-height: .2rem;
+}
+.aready {
+    font-size: .1rem!important;
+    color: #999!important;
+}
+.withdrawal-title {
+    font-size: .14rem;
+    padding-bottom: .15rem;
+    color: #333;
+    padding-top:.3rem;
+}
+.bd {
+    width:1.7rem;
+    height:.26rem;
+    line-height:.26rem;
+    font-size:.12rem;
+}
+.jf-input {
+    width: 1.2rem;
+    height:.26rem;
+    font-size: .12rem;
+    line-height:.26rem;
+}
+.jf-text{
+    font-size: .12rem;
+    line-height:.26rem;
+}
+.money {
+    font-size:.12rem;
+    padding-bottom: .1rem;
+}
+.read {
+    font-size: .1rem;
+    padding-bottom: .1rem;
+}
+.withdrawal input[type=button] {
+    width:.9rem;
+    height:.32rem;
+    line-height:.32rem;
+    margin-right:.2rem;
+    margin-top:.1rem;
+}
+.cha {
+    width: .6rem;
+    height:.6rem;
+    margin-bottom:.2rem;
+}
+.fail-title span:first-of-type {
+	width: 100%;
+    font-size:.14rem;
+    color: #333;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height:.26rem;
+    padding-left:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}

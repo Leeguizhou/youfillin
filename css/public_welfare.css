@@ -1,0 +1,169 @@
+.box{
+	padding-bottom: 58px;
+}
+.pw-top{
+	padding-bottom: 12px;
+	position: relative;
+}
+.pw-top a{
+	width: 80px;
+	height: 26px;
+	line-height: 25px;
+	margin-right:0!important ;
+	font-size: 12px;
+}
+.pw-top .love{
+	width: 22px;
+	height: 20px;
+	display: block;
+	background: url(../images/icon_love.png)center/100% 100%;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+.pw-top .red-text{
+	color: #ff6868;
+	font-size: 14px;
+	line-height: 26px;
+	margin-right: 15px;
+}
+.wrap{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #f6f6f6;
+}
+.wrap:first-of-type,
+.wrap:nth-of-type(2){
+	border-top: none!important;
+}
+.wrap:nth-of-type(2n-1){
+	padding-right: 20px;
+	border-right: 1px solid #f6f6f6;;
+}
+.wrap:nth-of-type(2n){
+	padding-left: 20px;
+}
+.wrapl{
+	width: 120px;
+	height: 100px;
+	border: 1px solid #eee;
+}
+.wrapl img{
+	width: 100%;
+	height: 100%;
+}
+.wrapr{
+	width:calc(100% - 120px);
+	height:100px;
+	padding-left: 10px;
+	position: relative;
+}
+.wrapr .rtitle{
+	font-size: 14px;
+	color:#333333;
+	padding-bottom: 10px;
+}
+.wrapr .rtext{
+	font-size: 12px;
+	color:#999;
+	line-height:18px;
+}
+.wrapr-bot{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.botl{
+	font-size: 12px;
+	color: #999;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+.botr{
+	display: block;
+	float: right;
+	font-size: 12px;
+	width: 60px;
+	height: 26px;
+	color: #fff;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 42px;
+}
+.pub-pw{
+	display: none;
+	position: absolute;
+	left:300px;
+	bottom: -50px;
+}
+
+
+@media only screen and (max-width: 750px) {
+.status span:before{
+	width: .14rem;
+	height: .14rem;
+	background: url(../images/icon_c_4.png)center/auto 100%;
+	top: .03rem;		
+}
+.pw-top .red-text{
+	display: block;
+	font-size: .12rem;
+}
+.pw-top .love {
+    width:.22rem;
+    height:.2rem;
+}
+.pw-top a{line-height:26px;}
+.wrap:nth-of-type(2) {	border-top: 1px solid #f6f6f6!important;  }
+.wrap{
+	width: 100%;
+	padding:.1rem 0!important;
+	border-right: none!important;
+	padding-bottom: 1px solid #f6f6f6!important;
+}
+.wrapr .rtitle{
+	font-size: .12rem;
+	padding-bottom: .1rem;
+}
+.wrapr .rtext{
+	font-size: .1rem;
+}
+.botl{
+	font-size: .1rem;
+}
+.botr{
+	width: .6rem;
+	height: .26rem;
+	line-height: .26rem;
+	font-size: .12rem;
+	border-radius: .42rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

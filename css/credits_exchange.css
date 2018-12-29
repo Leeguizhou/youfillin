@@ -1,0 +1,323 @@
+.box{
+	padding-bottom: 30px;
+}
+.box-top{
+	padding-bottom: 20px;
+	position: relative;
+}
+.box-top span:first-of-type{
+	float: left;
+	line-height: 26px;
+}
+.box-top input{
+	margin-left: 10px;
+}
+.content-top{
+	width: 100%;
+	padding-top:25px;
+	border-top: 1px solid #e6e6e6;
+}
+.content-top p{
+	font-size: 14px;
+	color: #333;
+	line-height: 26px;
+	float: left;
+}
+.content-top select{
+	width: 90px;
+	height: 26px;
+	border-radius: 5px;
+	border: 1px solid #e6e6e6;
+	font-size:12px;
+	padding-left: 5px;
+	float: right;
+/*	margin-right: 15PX;*/
+}
+.credits-table{
+	width: 100%;
+	padding-top: 15px;
+}	
+.credits-table table{
+	width: 100%;
+	height: auto;
+	border: rgba(246, 246, 246, 1) solid 1px;
+	text-align:center;
+	border-collapse:collapse;
+	border-spacing: 0;
+}
+.credits-table table th{
+	height: 32px;
+	background: #eee;
+	color: #333;
+	font-weight: normal;
+	font-size: 14px;
+}
+.credits-table table td{
+	padding: 10px 0;
+	font-size: 12px;
+	color: #999;
+}
+/*积分详情1*/
+.pay-way{
+	padding-top: 20px;
+	border-top: 1px solid #e6e6e6;
+	margin-bottom: 20px;
+	display: none;
+}
+.way-top{
+	padding-bottom: 20px;
+	position: relative;
+}
+.way-top span:first-of-type{
+	display: block;
+	font-size: 14px;
+	line-height: 26px;
+	color: #333;
+	float: left;
+}
+.alipay{
+	width: 50px;
+	float: left;
+}
+.alipay a{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.bank_card{
+	width: 64px;
+	float: left;
+	margin-left: 60px;	
+}
+.alipay a img,
+.bank_card a img{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 5px;
+}
+.alipay a img{
+	width: 40px!important;
+	margin-left: 5px;
+}
+.alipay a p,
+.bank_card a p{
+	font-size: 12px;
+	text-align: center;
+	color:#333;
+	line-height: 20px;
+}
+.aready{
+	font-size: 10px!important;
+	color: #999!important;
+}
+.withdrawal{
+	display: none;
+}
+.withdrawal-title{
+	font-size: 14px;
+	padding-bottom: 15px;
+	color: #333;
+	padding-top: 30px;
+}
+.jf-text{
+	display: block;
+	float: left;
+	font-size: 12px;
+	margin-left: 20px;
+	line-height: 26px;
+	color: #333;
+}
+.jf-input{
+	width: 120px;
+	height: 26px;
+	text-indent: 5px;
+	color: rgba(153, 153, 153, 1);
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	font-size: 12px;
+	/*line-height:26px;*/
+	display: block;
+	text-align: left;
+	float: left;
+}
+.money{
+	font-size: 12px;
+	color: #333;
+	padding-bottom: 10px;
+}
+.read{
+	font-size: 10px;
+	color: #999;
+	padding-bottom: 10px;
+}
+.bd{
+	width: 170px;
+	height: 26px;
+	text-indent: 5px;
+	line-height: 26px;
+	color: rgba(51, 51, 51, 1);
+	border-radius: 5px;
+	border: 1px solid #e6e6e6;
+	font-size: 12px;
+	text-align: left;
+	display: block;
+	background-color: #fff;
+}
+.withdrawal div{
+	padding: 10px 0;
+}
+.withdrawal input[type=button]{
+	width: 90px;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 20px;
+}
+.jfprompt-words{
+	display: none;
+	position: absolute;
+	left:0;
+	bottom: -75px;
+}
+.way-pw{
+	display: none;
+	position: absolute;
+	left:60px;
+	bottom: -36px;
+}
+.withdrawal a{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:750px) {
+.box{bottom:2%;height:auto!important;}
+.status span:before{
+	width: .16rem;
+	height: .16rem;
+	background: url(../images/icon_c_3.png)center/100% 100%;
+	top: .03rem;		
+}	
+.box-top {
+    padding-bottom: .2rem;
+}	
+.box-top span:first-of-type{
+	font-size: .14rem;
+}	
+.content-top{
+	padding-top: .25rem;
+}	
+.content-top p{
+	font-size:.14rem;
+}		
+.credits-table table th{
+	height:.4rem;
+	background: #eee;
+	color: #333;
+	font-weight: normal;
+	font-size:.12rem;
+}
+.credits-table table td{
+	padding:.1rem 0;
+	font-size: .1rem;
+	color: #999;
+}	
+
+.credits-table table th:nth-of-type(3){
+	width: 10%;
+}
+.credits-table table th:nth-of-type(4){
+	width: 10%;
+}
+.credits-table table th:nth-of-type(5){
+	width: 10%;
+}	
+.credits-table table th:last-of-type{
+	width: 10%;
+}	
+/*积分兑换2*/	
+.pay-way{
+	padding-top: .2rem;
+}	
+.way-top{
+	padding-bottom: .2rem;
+}	
+.way-top span:first-of-type{
+	font-size: .14rem;
+	line-height: .26rem;
+}	
+.alipay a img {
+    width:.4rem!important;
+    margin-left:.05rem;
+}	
+.alipay a p, .bank_card a p {
+    font-size:.12rem;
+    text-align: center;
+    color: #333;
+    line-height:.2rem;
+}	
+.aready{
+	font-size: .1rem!important;
+}	
+.withdrawal input[type=button] {
+    width:.9rem;
+    height:.32rem;
+    line-height:.32rem;
+    margin-right:.2rem;
+    margin-top:.1rem;
+}
+.bd {
+    width:1.7rem;
+    height:.26rem;
+    line-height:.26rem;
+    font-size:.12rem;
+}
+.alipay a img, .bank_card a img {
+    height:.4rem;
+}
+.money{
+	font-size: .12rem;
+}
+.read{
+	font-size: .1rem;
+}
+.jf-input {
+    width:1.2rem;
+    height: .26rem;
+    font-size: .12rem;
+    line-height:.26rem;
+
+}
+.box-top input{height:26px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+}
